@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:4177/?view=surface&fixture=train-pending",
+  "observed": {
+    "mark": "pending",
+    "ariaLabel": "Treno, in verifica, slot riservato, conferma disabilitata, ragione: in verifica, slot riservato",
+    "ctaEnabled": false,
+    "ctaLabel": "Conferma, disabilitata, in verifica, slot riservato",
+    "reasonVisible": true,
+    "reason": "in verifica, slot riservato",
+    "warningVisible": false,
+    "warning": null,
+    "pendingReserved": true,
+    "spinnerDisplay": "none",
+    "badge": null,
+    "age": null,
+    "ctaWidth": 108.25,
+    "ctaHeight": 49
+  },
+  "bodyText": "Salta ai marchi\nApp sotto\n\nHit-test target when the overlay is COLLAPSED.\n\nApri messaggio 0"
+}

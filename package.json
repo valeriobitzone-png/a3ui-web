@@ -1,0 +1,26 @@
+{
+  "name": "a3ui-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "a3ui epistemic window manager in TypeScript and native Web Components. Implements spec/SPEC_A3UI.md. Not a Compose translation.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run && playwright test",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test",
+    "gate": "tsc --noEmit && vitest run && playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "playwright": "^1.55.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:4177/?view=surface&fixture=hotel-stale",
+  "observed": {
+    "mark": "stale",
+    "ariaLabel": "Hotel, stale 2 ore, prezzo 89 euro, conferma abilitata, warning: stale 2 ore",
+    "ctaEnabled": true,
+    "ctaLabel": "Conferma, stale 2 ore",
+    "reasonVisible": false,
+    "reason": null,
+    "warningVisible": true,
+    "warning": "stale 2 ore",
+    "pendingReserved": false,
+    "spinnerDisplay": "none",
+    "badge": null,
+    "age": "2h fa",
+    "ctaWidth": 108.25,
+    "ctaHeight": 49
+  },
+  "bodyText": "Salta ai marchi\nApp sotto\n\nHit-test target when the overlay is COLLAPSED.\n\nApri messaggio 0"
+}

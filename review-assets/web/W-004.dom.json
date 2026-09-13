@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:4177/?view=surface&fixture=flight-fact",
+  "observed": {
+    "mark": "fact",
+    "ariaLabel": "Volo, conferma abilitata",
+    "ctaEnabled": true,
+    "ctaLabel": "Conferma",
+    "reasonVisible": false,
+    "reason": null,
+    "warningVisible": false,
+    "warning": null,
+    "pendingReserved": false,
+    "spinnerDisplay": "none",
+    "badge": null,
+    "age": null,
+    "ctaWidth": 108.25,
+    "ctaHeight": 49
+  },
+  "bodyText": "Salta ai marchi\nApp sotto\n\nHit-test target when the overlay is COLLAPSED.\n\nApri messaggio 0"
+}

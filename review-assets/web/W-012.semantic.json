@@ -1,0 +1,122 @@
+[
+  {
+    "fixture": "calendar-contradicted",
+    "expected": {
+      "mark": "CONTRADICTED",
+      "ctaEnabled": false,
+      "reasonVisible": true,
+      "reason": "contradicted: resolve conflict first",
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": false,
+      "spinner": false,
+      "ariaLabel": "Calendario, contradicted, conferma disabilitata, ragione: contradicted resolve conflict first"
+    },
+    "observed": {
+      "mark": "contradicted",
+      "ariaLabel": "Calendario, contradicted, conferma disabilitata, ragione: contradicted resolve conflict first",
+      "ctaEnabled": false,
+      "ctaLabel": "Conferma, disabilitata, contradicted resolve conflict first",
+      "reasonVisible": true,
+      "reason": "contradicted: resolve conflict first",
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": false,
+      "spinnerDisplay": "none",
+      "badge": "contradicted",
+      "age": null,
+      "ctaWidth": 108.25,
+      "ctaHeight": 49
+    }
+  },
+  {
+    "fixture": "hotel-stale",
+    "expected": {
+      "mark": "STALE",
+      "ctaEnabled": true,
+      "reasonVisible": false,
+      "reason": null,
+      "warningVisible": true,
+      "warning": "stale 2 ore",
+      "pendingReserved": false,
+      "spinner": false,
+      "ariaLabel": "Hotel, stale 2 ore, prezzo 89 euro, conferma abilitata, warning: stale 2 ore"
+    },
+    "observed": {
+      "mark": "stale",
+      "ariaLabel": "Hotel, stale 2 ore, prezzo 89 euro, conferma abilitata, warning: stale 2 ore",
+      "ctaEnabled": true,
+      "ctaLabel": "Conferma, stale 2 ore",
+      "reasonVisible": false,
+      "reason": null,
+      "warningVisible": true,
+      "warning": "stale 2 ore",
+      "pendingReserved": false,
+      "spinnerDisplay": "none",
+      "badge": null,
+      "age": "2h fa",
+      "ctaWidth": 108.25,
+      "ctaHeight": 49
+    }
+  },
+  {
+    "fixture": "train-pending",
+    "expected": {
+      "mark": "PENDING",
+      "ctaEnabled": false,
+      "reasonVisible": true,
+      "reason": "in verifica, slot riservato",
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": true,
+      "spinner": false,
+      "ariaLabel": "Treno, in verifica, slot riservato, conferma disabilitata, ragione: in verifica, slot riservato"
+    },
+    "observed": {
+      "mark": "pending",
+      "ariaLabel": "Treno, in verifica, slot riservato, conferma disabilitata, ragione: in verifica, slot riservato",
+      "ctaEnabled": false,
+      "ctaLabel": "Conferma, disabilitata, in verifica, slot riservato",
+      "reasonVisible": true,
+      "reason": "in verifica, slot riservato",
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": true,
+      "spinnerDisplay": "none",
+      "badge": null,
+      "age": null,
+      "ctaWidth": 108.25,
+      "ctaHeight": 49
+    }
+  },
+  {
+    "fixture": "flight-fact",
+    "expected": {
+      "mark": "FACT",
+      "ctaEnabled": true,
+      "reasonVisible": false,
+      "reason": null,
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": false,
+      "spinner": false,
+      "ariaLabel": "Volo, conferma abilitata"
+    },
+    "observed": {
+      "mark": "fact",
+      "ariaLabel": "Volo, conferma abilitata",
+      "ctaEnabled": true,
+      "ctaLabel": "Conferma",
+      "reasonVisible": false,
+      "reason": null,
+      "warningVisible": false,
+      "warning": null,
+      "pendingReserved": false,
+      "spinnerDisplay": "none",
+      "badge": null,
+      "age": null,
+      "ctaWidth": 108.25,
+      "ctaHeight": 49
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "sizes": [
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": true
+    },
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": false
+    },
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": true
+    },
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": true
+    },
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": true
+    },
+    {
+      "width": 108.25,
+      "height": 49,
+      "disabled": false
+    }
+  ],
+  "skip": {
+    "x": 8,
+    "y": 8,
+    "width": 141.703125,
+    "height": 68
+  },
+  "pill": {
+    "x": 1216,
+    "y": 656,
+    "width": 48,
+    "height": 48
+  }
+}

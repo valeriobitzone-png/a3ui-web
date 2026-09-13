@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:4177/?view=surface&fixture=calendar-contradicted",
+  "observed": {
+    "mark": "contradicted",
+    "ariaLabel": "Calendario, contradicted, conferma disabilitata, ragione: contradicted resolve conflict first",
+    "ctaEnabled": false,
+    "ctaLabel": "Conferma, disabilitata, contradicted resolve conflict first",
+    "reasonVisible": true,
+    "reason": "contradicted: resolve conflict first",
+    "warningVisible": false,
+    "warning": null,
+    "pendingReserved": false,
+    "spinnerDisplay": "none",
+    "badge": "contradicted",
+    "age": null,
+    "ctaWidth": 108.25,
+    "ctaHeight": 49
+  },
+  "bodyText": "Salta ai marchi\nApp sotto\n\nHit-test target when the overlay is COLLAPSED.\n\nApri messaggio 0"
+}
