@@ -18,7 +18,7 @@ Scope: new web semantics and tests only; no changes to repo `a3`.
 | W-018 | N value updates keep form generation count at 1 | PASS | `test/b5.test.ts` |
 | W-019 | `surfaceId` remains stable through re-bindings | PASS | `test/b5.test.ts` |
 | W-020 | Form-key change explicitly regenerates the form to generation 2 | PASS | `test/b5.test.ts` |
-| W-021 | `x-mono-gate` crosses the protocol as opaque payload | PASS | `test/b5.test.ts` |
+| W-021 | `x-consumer-gate` crosses the protocol as opaque payload | PASS | `test/b5.test.ts` |
 | W-022 | Extension key without `x-` is explicitly rejected | PASS | `test/b5.test.ts` |
 | W-023 | Unknown extension is ignored while the surface is drawn | PASS | `test/b5.test.ts` |
 | W-024 | Surface remains valid without extensions | PASS | `test/b5.test.ts` |

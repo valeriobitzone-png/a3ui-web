@@ -64,10 +64,10 @@ describe("B5b lifecycle, re-binding, and opaque extension conformance", () => {
     expect(binding.form.generation).toBe(2);
   });
 
-  it("W-021 transports x-mono-gate opaquely", () => {
+  it("W-021 transports x-consumer-gate opaquely", () => {
     const payload = { status: "pending" };
-    const extensions = SurfaceExtensions.of({ "x-mono-gate": payload });
-    expect(extensions.entries.get("x-mono-gate")).toBe(payload);
+    const extensions = SurfaceExtensions.of({ "x-consumer-gate": payload });
+    expect(extensions.entries.get("x-consumer-gate")).toBe(payload);
   });
 
   it("W-022 rejects an extension key without x- explicitly", () => {
@@ -76,10 +76,10 @@ describe("B5b lifecycle, re-binding, and opaque extension conformance", () => {
   });
 
   it("W-023 ignores an unknown extension while drawing the surface", () => {
-    const extensions = SurfaceExtensions.of({ "x-mono-gate": { status: "pending" } });
+    const extensions = SurfaceExtensions.of({ "x-consumer-gate": { status: "pending" } });
     const rendered = new WebRendererStub().render("w-023", extensions);
     expect(rendered.drawn).toBe(true);
-    expect(rendered.ignoredExtensions).toEqual(new Set(["x-mono-gate"]));
+    expect(rendered.ignoredExtensions).toEqual(new Set(["x-consumer-gate"]));
   });
 
   it("W-024 keeps a surface valid without extensions", () => {
