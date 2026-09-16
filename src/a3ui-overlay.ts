@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** <a3ui-overlay> SPEC_A3UI §5. COLLAPSED default, pass-through outside the pill. */
 import { OVERLAY_CSS } from "./css.ts";
 import { MARKS, type Mark } from "./tuple.ts";

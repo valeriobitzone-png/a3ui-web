@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 import { SurfaceReject } from "./reject.ts";
 
 export type SurfaceState = "PROPOSED" | "MOUNTED" | "ALIVE" | "FROZEN" | "DISMISSED";

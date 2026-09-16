@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** Page host. Skip link lives in light DOM (first focus). Marks are web components. */
 import { HOST_CSS } from "./css.ts";
 import {

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 import { A3uiOverlay } from "./a3ui-overlay.ts";
 import { A3uiSurface } from "./a3ui-surface.ts";
 import { boot } from "./a3ui-host.ts";

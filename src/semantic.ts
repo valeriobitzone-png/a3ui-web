@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** Semantic observation for W-012. Same marks, CTA state, reason — not pixels. */
 import { ctaFor } from "./marks.ts";
 import { stateDescription } from "./speech.ts";

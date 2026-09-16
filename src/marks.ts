@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** SPEC_A3UI §4 Mark to CTA permission. Closed table. Law, not decoration. */
 import type { Mark, Surface } from "./tuple.ts";
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** Constructable styles. Marks are geometry and labels, not opacity. SPEC_A3UI §3 §6 §7. */
 
 export const SURFACE_CSS = `

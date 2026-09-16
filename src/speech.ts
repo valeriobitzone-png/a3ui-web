@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
 /** SPEC_A3UI §7: non-sensory stateDescription. Type plus reason plus forbidden action. */
 import { ctaFor, staleWarning } from "./marks.ts";
 import type { Surface } from "./tuple.ts";
