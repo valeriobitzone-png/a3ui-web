@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Part of the A3 universe. See LICENSE.
+
 import { execFileSync } from "node:child_process";
 import { SurfaceReject } from "../src/reject.ts";
 import {
