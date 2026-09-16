@@ -5,6 +5,11 @@ import { ctaFor, visibleAge } from "./marks.ts";
 import { ctaSpeech, stateDescription } from "./speech.ts";
 import { parseSurface, type Surface } from "./tuple.ts";
 import { SurfaceReject } from "./reject.ts";
+import {
+  SurfaceExtensions,
+  SurfaceLifecycle,
+  type SurfaceSnapshot,
+} from "./b5-semantics.ts";
 
 function adopt(root: ShadowRoot, cssText: string): void {
   const style = document.createElement("style");
@@ -17,6 +22,8 @@ export class A3uiSurface extends HTMLElement {
   #surface: Surface | null = null;
   #reject: SurfaceReject | null = null;
   #root: ShadowRoot;
+  #lifecycle: SurfaceLifecycle | null = null;
+  #extensions = SurfaceExtensions.empty();
 
   constructor() {
     super();
@@ -45,6 +52,43 @@ export class A3uiSurface extends HTMLElement {
 
   get surface(): Surface | null {
     return this.#surface;
+  }
+
+  get surfaceId(): string {
+    return (this.getAttribute("surface-id") ?? this.id) || "web-surface";
+  }
+
+  get lifecycle(): SurfaceLifecycle {
+    return (this.#lifecycle ??= SurfaceLifecycle.proposed(this.surfaceId));
+  }
+
+  get extensions(): SurfaceExtensions {
+    return this.#extensions;
+  }
+
+  set extensions(value: SurfaceExtensions) {
+    this.#extensions = value;
+    this.render();
+  }
+
+  mountSurface(): void {
+    this.lifecycle.mount();
+  }
+
+  activateSurface(): void {
+    this.lifecycle.activate();
+  }
+
+  freezeSurface(snapshot: SurfaceSnapshot): void {
+    this.lifecycle.freeze(snapshot);
+  }
+
+  restoreSurface(): void {
+    this.lifecycle.revive();
+  }
+
+  dismissSurface(): void {
+    this.lifecycle.dismiss();
   }
 
   set surface(value: Surface | null) {

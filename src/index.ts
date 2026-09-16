@@ -9,6 +9,16 @@ export { ctaFor, staleWarning, visibleAge } from "./marks.ts";
 export { stateDescription } from "./speech.ts";
 export { reduceOverlay, OverlaySession, OVERLAY_IDLE_MS } from "./overlay.ts";
 export { expectedSemantic } from "./semantic.ts";
+export {
+  ExtensionValidator,
+  FormRegistry,
+  SurfaceBinding,
+  SurfaceExtensions,
+  SurfaceLifecycle,
+  SurfaceMemory,
+  SurfaceQueue,
+  WebRendererStub,
+} from "./b5-semantics.ts";
 
 export function register(): void {
   if (!customElements.get("a3ui-surface")) customElements.define("a3ui-surface", A3uiSurface);
